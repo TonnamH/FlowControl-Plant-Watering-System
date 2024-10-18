@@ -1,15 +1,14 @@
 # Physical Computing Project 2024 - IT KMITL
 ### Project's Title : FlowControl-Plant-Watering-System
 
-## Objective วัตถุประสงค์ของโครงงาน
-..
-## Detail รายละเอียดของโครงงาน
+## Abstract บทคัดย่อของโครงงาน
+
+## Main Function
+
+## Project Website
 coming soon ..
 
-## Project Description คำอธิบายโครงงาน
-coming soon ..
-
-## Website
+## Project Demo Video
 coming soon ..
 
 |Student ID|Name|Topic|Profile|
