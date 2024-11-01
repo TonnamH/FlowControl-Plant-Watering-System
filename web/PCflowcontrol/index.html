@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FlowControl</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:2px;">
+    <a href="#home" class="w3-bar-item w3-button">FlowControl</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#Components" class="w3-bar-item w3-button">Components</a>
+      <a href="#Demo" class="w3-bar-item w3-button">Demo</a>
+      <a href="#Sourcecode" class="w3-bar-item w3-button">Source Code</a>
+      <a href="#Member" class="w3-bar-item w3-button">Member</a>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/img/flowbg.png" alt="Indexbg" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">FlowControl</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1300px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/img/flowcontrol.png" class="w3-round w3-image w3-opacity-min" alt="project" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About this Project</h1><br>
+      <!--<h5 class="w3-center">Tradition since 1889</h5>-->
+      <p class="w3-large">FlowControl Automatic Plant Watering System เป็นโปรเจกต์ IoT ที่ใช้ <span class="w3-tag w3-light-grey">Arduino Uno R4 WiFi</span>
+        ในการตรวจสอบระดับความชื้นในดินและรดน้ำต้นไม้อัตโนมัติเมื่อจำเป็น 
+        ผู้ใช้สามารถตรวจสอบและควบคุมระบบจากระยะไกลผ่านเว็บอินเทอร์เฟซ ช่วยลดการใช้น้ำและเพิ่มความสะดวกสบายในการดูแลต้นไม้</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">การรดน้ำอัตโนมัติ: ระบบใช้เซ็นเซอร์ตรวจวัดความชื้นในดินเพื่อตรวจสอบความต้องการน้ำของต้นไม้ และทำการเปิดปั๊มน้ำเมื่อระดับความชื้นลดลงต่ำกว่าค่าที่กำหนด
+        การตรวจสอบและควบคุมจากระยะไกล: ด้วยการใช้ Arduino ที่เชื่อมต่อ WiFi ผู้ใช้สามารถเข้าถึงข้อมูลของต้นไม้และควบคุมกระบวนการรดน้ำได้จากทุกที่ เพิ่มความสะดวกสบายและความอุ่นใจ
+        <br>การใช้น้ำอย่างมีประสิทธิภาพ: โดยการรดน้ำเฉพาะเมื่อจำเป็น ระบบนี้ช่วยลดการใช้น้ำอย่างสูญเปล่า ทำให้เป็นมิตรต่อสิ่งแวดล้อมและประหยัดค่าใช้จ่าย</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+
+    <!-- Components Section-->
+<div class="w3-row-padding w3-padding-large w3-center" id="Components" style="background-color: #f0f0f0; border-radius: 8px;">
+    <div class="w3-third">
+      <img src="/img/0relaymodule.jpg" alt="relaymodule" style="width:100%">
+      <h3>Relay Module</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-third">
+      <img src="/img/0waterpump.jpg" alt="waterpump" style="width:100%">
+      <h3>Water Pump</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-third">
+      <img src="/img/0soilmoisturesensor.jpg" alt="soilmoisturesensor" style="width:100%">
+      <h3>Soil Moisture Sensor</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-padding-large w3-center" style="background-color: #f0f0f0; border-radius: 8px;">
+    <div class="w3-third w3-centered">
+        <img src="/img/0thermistor.jpg" alt="Thermistor" style="width:100%">
+        <h3>Thermistor</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+</div>
+
+
+
+  <!-- Demo Section -->
+  <!-- <div class="w3-row w3-padding-64" id="Demo">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <iframe width="560" height="315" src="https://youtu.be/FexkDIeqnKo" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe> 
+    </div>
+</div> -->
+  <div class="w3-row w3-padding-64" id="Demo">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=FexkDIeqnKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Video Demo</h1><br>
+      <h5 class="w3-center">shut the fuck up</h5>
+      <p class="w3-center">It's a fucking demo, what else do you want?</p>
+      <!-- <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+      
+    </div>
+  </div>
+
+    <!-- Source Code Section -->
+     
+    <div class="w3-row-padding w3-padding-large w3-center" id="Sourcecode" style="background-color: #f0f0f0; border-radius: 8px;">
+      <!-- Description on the Left -->
+      <div class="w3-half w3-padding-large w3-left-align">
+          <h3>Source Code Explanation</h3>
+          <p>This section explains the source code shown on the right. It provides details on how each part of the code functions, including initialization, condition checks, and relay activation. The code is adaptable to various devices through adjustments for timing and sensitivity.</p>
+      </div>
+      
+      <!-- Picture on the Right -->
+      <div class="w3-half w3-padding-large">
+        <div class="scrollable-image">
+            <img src="/img/sourcecode.png" alt="Source Code Image" style="width:100%">
+        </div>
+    </div>
+</div>
+
+  <!--members section-->
+  <div class="w3-row-padding" id="Member">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/img/tonnam.jpg" alt="skibidi rizzler" style="width:100%">
+      <h3>Tonnam Huayhongthong</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Person with the most aura in the group.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/img/TKalpha.jpg" alt="7 days chest workout routine" style="width:100%">
+      <h3>Thanakrit Krittisurin</h3>
+      <p class="w3-opacity">urm actually</p>
+      <p>Bro's split is Push-Pull-Chest.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/img/bruh.jpg" alt="probably not good for mental health" style="width:100%">
+      <h3>Thanapat something too lazy to remember</h3>
+      <p class="w3-opacity">yapper</p>
+      <p>there's up to 7000 language in the world and bro chose to yap.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/img/ayanoalpha.jpg" alt="tools" style="width:100%">
+      <h3>Pochara Ayanokoji</h3>
+      <p class="w3-opacity">Real ayanokoji</p>
+      <p>The ultimate Whiteroom survivor.</p>
+    </div>
+  </div>
+
+  
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-32">
+  <p>More Info at <a href="https://github.com/TonnamH/FlowControl-Plant-Watering-System"  target="_blank" class="w3-hover-text-green">FlowControl</a></p>
+</footer>
+
+</body>
+</html>
