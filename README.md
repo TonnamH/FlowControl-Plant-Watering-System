@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=FexkDIeqnKo
 ## Member
 |Student ID|Name|Topic|Profile|
 |--|--|--|--|
-| 66070259 | นายต้นนํ้า ห้วยหงษ์ทอง | Website & Poster | - |
-| 66070262 | นายธนกฤต กิตติสุรินทร์ | Arduino Circuit Designer & .ino | - |
-| 66070267 | นายธนภัทร แสงวัฒนสิริ | Github Document & Tester | - |
-| 66070295 | นายพชร สรรพเศรษฐ | Arduino Circuit Designer & .ino | - |
+| 66070259 | นายต้นนํ้า ห้วยหงษ์ทอง | Website & Poster |
+| 66070262 | นายธนกฤต กิตติสุรินทร์ | Arduino Circuit Designer & .ino |
+| 66070267 | นายธนภัทร แสงวัฒนสิริ | Github Document & Tester |
+| 66070295 | นายพชร สรรพเศรษฐ | Arduino Circuit Designer & .ino |
