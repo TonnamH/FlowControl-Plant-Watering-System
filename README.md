@@ -10,7 +10,7 @@
 - ระบบรดน้ำแบบแมนนวล
 
 ## Project Website
-coming soon ..
+https://tonnamh.github.io/FlowControl-Plant-Watering-System/
 
 ## Project Demo Video
 https://www.youtube.com/watch?v=FexkDIeqnKo
