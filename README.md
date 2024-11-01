@@ -13,7 +13,7 @@
 coming soon ..
 
 ## Project Demo Video
-coming soon ..
+https://www.youtube.com/watch?v=FexkDIeqnKo
 
 ## Member
 |Student ID|Name|Topic|Profile|
