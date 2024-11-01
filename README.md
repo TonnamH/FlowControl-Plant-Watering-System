@@ -19,8 +19,8 @@ https://www.youtube.com/watch?v=FexkDIeqnKo
 ## ![Infographic](https://github.com/user-attachments/assets/21396cd6-27a7-4b23-8cbd-3db35fd09cf1)
 
 ## Member
-|Student ID|Name|Topic|Profile|
-|--|--|--|--|
+|Student ID|Name|Topic|
+|--|--|--|
 | 66070259 | นายต้นนํ้า ห้วยหงษ์ทอง | Website & Poster |
 | 66070262 | นายธนกฤต กิตติสุรินทร์ | Arduino Circuit Designer & .ino |
 | 66070267 | นายธนภัทร แสงวัฒนสิริ | Github Document & Tester |
