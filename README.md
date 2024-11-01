@@ -15,10 +15,13 @@ coming soon ..
 ## Project Demo Video
 https://www.youtube.com/watch?v=FexkDIeqnKo
 
+## Project Poster
+## ![Infographic](https://github.com/user-attachments/assets/21396cd6-27a7-4b23-8cbd-3db35fd09cf1)
+
 ## Member
 |Student ID|Name|Topic|Profile|
 |--|--|--|--|
-| 66070259 | นายต้นนํ้า ห้วยหงษ์ทอง | Null | - |
-| 66070262 | นายธนกฤต กิตติสุรินทร์ | Null | - |
-| 66070267 | นายธนภัทร แสงวัฒนสิริ | Null | - |
-| 66070295 | นายพชร สรรพเศรษฐ | Null | - |
+| 66070259 | นายต้นนํ้า ห้วยหงษ์ทอง | Website & Poster | - |
+| 66070262 | นายธนกฤต กิตติสุรินทร์ | Arduino Circuit Designer & .ino | - |
+| 66070267 | นายธนภัทร แสงวัฒนสิริ | Github Document & Tester | - |
+| 66070295 | นายพชร สรรพเศรษฐ | Arduino Circuit Designer & .ino | - |
